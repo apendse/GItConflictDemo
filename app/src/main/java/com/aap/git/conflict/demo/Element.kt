@@ -10,6 +10,7 @@ enum class Element(val symbol: String, val fullName: String, val atomicNumber: I
     NITROGEN("N", "Nitrogen", 7),
     OXYGEN("O", "Oxygen", 8),
     Fluorine("F", "Fluorine", 9),
-    NEON("Ne", "Neon", 10)
-
+    NEON("Ne", "Neon", 10),
+    CHLORINE("Cl", "Chlorine", 17),
+    ARGON("Ar", "Argon", 18),
 }
