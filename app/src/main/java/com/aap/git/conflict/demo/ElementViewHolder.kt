@@ -23,7 +23,7 @@ class ElementAdapter: ListAdapter<Element, ElementViewHolder>(Callback()) {
         val element = getItem(position)
         with(holder.binding) {
             symbol.text = element.symbol
-            name.text = element.fullName
+            name.text = element.elementName
             atomicNumber.text = element.atomicNumber.toString()
         }
     }
