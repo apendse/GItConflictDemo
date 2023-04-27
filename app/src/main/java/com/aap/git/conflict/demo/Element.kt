@@ -1,6 +1,6 @@
 package com.aap.git.conflict.demo
 
-enum class Element(val symbol: String, val elementName: String, val atomicNumber: Int) {
+enum class Element(val symbol: String, val familiarName: String, val atomicNumber: Int) {
     HYDROGEN("H", "Hydrogen", 1),
     HELIUM("He", "Helium", 2),
     LITHIUM("Li", "Lithium", 3),
